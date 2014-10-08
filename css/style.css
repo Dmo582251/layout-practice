@@ -22,8 +22,15 @@ h1 {
   font-size: 3em; /* 48px */
 }
 
+.article h1{
+  color: green;
+}
+
 h2 {
   font-size: 2.25em /* 36px */
+}
+.sidebar h2{
+ color: blue; 
 }
 
 h3 {
@@ -40,33 +47,37 @@ h4 {
 ========================================== */
 
 header{
-  background-color: #cccccc; /* grey */
+  background-color: green; /* green */
+  color:white;
+  text-align: center;
   
   
 }
 
 footer{
-  background-color: #babaff; /* light-ish blue */
+  background-color: #dddddd; /*grey*/
+  width:80%;
+  margin: 0 auto;
+  
   
   
 }
 
 .content-wrapper{
-  background-color:#fafa00; /* yellow */
+  
   
   
 }
 
 .article{
-  background-color: #f0be86; /* kind of orange */
-  
-  
+  float:left;
+  width: 60%;
 }
 
 .sidebar{
-  background-color: #ffaecf; /* kind of pink */
-  
-  
+  background-color: #dddddd;
+  float:left;
+  width: 40%;
 }
 
 
